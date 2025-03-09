@@ -1,0 +1,22 @@
+1. Header
+    - h1
+    - Image
+
+2. section-1
+    - form
+    - fieldset
+    - legend
+    - fieldset
+    - legend
+    - submit button
+
+3. section-2
+    - h2
+    - video
+
+# Links :
+
+* Github : 
+* Github Pages : 
+* Netlify : 
+* Vercel : 
