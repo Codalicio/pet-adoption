@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Adoption</title>
+</head>
+<body>
+    <!-- Header Section Starts -->
+    <header>
+        <h1>Pet Adoption Application</h1>
+        <img src="./Images/Dog.jpg" alt="Dog" loading="lazy" width="300" height="200">
+    </header>
+    <!-- Header Section Ends -->
+    <!-- Section-1 Starts -->
+    <section>
+        <form action="./getInfo" method="get">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="fName">Full Name : </label>
+                <input type="text" name="name" id="fName" required><br><br>
+                <label for="userEmail">Email : </label>
+                <input type="email" name="emailID" id="userEmail" required><br><br>
+                <label for="phoneNumber">Phone : </label>
+                <input type="tel" name="phone" id="phoneNumbr" required>
+                <fieldset>
+                    <legend>Pet Preference</legend>
+                    <label for="pet_type">Type of Pet : </label>
+                    <select name="petType" id="pet_type">
+                        <option value="select one">Select One</option>
+                        <option value="dog">Dog</option>
+                        <option value="cat">Cat</option>
+                        <option value="bird">Bird</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <p>Age Range : </p>
+                    <input type="radio" name="Young" id="young" value="Young">
+                    <label for="young">Young</label><br>
+                    <input type="radio" name="Adult" id="adult" value="Adult">
+                    <label for="adult">Adult</label><br>
+                    <input type="radio" name="Senior" id="senior" value="Senior">
+                    <label for="senior">Senior</label><br>
+                    <label for="adopt">Why do you want to adopt a pet?</label><br>
+                    <textarea name="petAdopt" id="adopt" cols="34" rows="7"></textarea>
+                </fieldset><br>
+                <input type="submit" value="Submit Application">
+            </fieldset>
+        </form>
+    </section>
+    <!-- Section-1 Ends -->
+    <!-- Section-2 Starts -->
+    <section>
+        <h2>Watch Cute Puppy Videos</h2>
+        <video width="550" height="400" autoplay loop>
+            <source src="./Media/3191251-uhd_4096_2160_25fps.mp4" type="video/mp4">
+            Your browser does not support this video.
+        </video>
+        <hr>
+        <audio controls preload="none">
+            <source src="./Media/dog-on-a-leash-146227.mp3" type="audio/mp3">
+            Your browser does not support this audio.
+        </audio>
+    </section>
+    <!-- Section-2 Ends -->
+</body>
+</html>
